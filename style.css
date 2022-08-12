@@ -285,16 +285,15 @@ iframe {
   width: 100%;
 }
 
-/* .play-icon{
-  background-image: url("./img/video-play-icon.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position-x: center;
-  background-position-y: center;
-  height: 100px;
-  width: 100px;
-  outline: none;
-} */
+.slider-nav-for-news-thumbnails{
+  padding: 12px;
+}
+.slider-nav-for-news-thumbnails .slick-slide.slick-current.slick-active >img{
+  border: 1px solid grey;
+  box-shadow: 2px 2px 10px grey;
+}
+
+
 @media (max-width: 1024px) {
   .section-appointment:before,
   .section-our-services:before,
